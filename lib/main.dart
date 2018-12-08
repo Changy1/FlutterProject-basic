@@ -8,10 +8,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false, // 控制右上角debug标志的显示
+      // 控制右上角debug标志的显示
+      debugShowCheckedModeBanner: false, 
       theme: ThemeData(
-        primarySwatch: Colors.blue, // 基础颜色
-        highlightColor: Colors.blueAccent,  // 高亮颜色
+        // 基础颜色
+        primarySwatch: Colors.blue, 
+        // 高亮颜色
+        highlightColor: Colors.blueAccent, 
         splashColor: Colors.white70
       ),
       home: HomeWidget(),
